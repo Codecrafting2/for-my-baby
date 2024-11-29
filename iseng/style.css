@@ -1,0 +1,101 @@
+/* Gaya Umum */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #ffafbd, #ffc3a0);
+    color: #333;
+    text-align: center;
+}
+
+/* Header Sticky */
+header {
+    background: #ff6f61;
+    color: #fff;
+    padding: 20px;
+    position: sticky; /* Header tetap terlihat */
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #ffe0d6;
+}
+
+/* Bagian Umum */
+.section {
+    padding: 40px 20px;
+}
+
+.main-image {
+    max-width: 300px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Slider */
+.slider {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.slide {
+    min-width: 300px;
+    margin: 0 10px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Galeri Foto */
+.gallery img {
+    max-width: 150px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+/* Tombol */
+button {
+    padding: 10px 20px;
+    background: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #e95a50;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    background: #ff6f61;
+    color: #fff;
+    padding: 10px;
+}
